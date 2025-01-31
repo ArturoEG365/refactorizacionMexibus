@@ -1,5 +1,7 @@
 import * as React from 'react';
 import { Card, CardContent, TextField, Button, Typography } from "@mui/material";
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Checkbox from '@mui/material/Checkbox';
 
 export default function LoginForm() {
     return (
@@ -21,6 +23,7 @@ export default function LoginForm() {
                     margin="normal"
                     variant="outlined"
                 />
+                 <FormControlLabel control={<Checkbox />} label="Mostrar contraseña" />
                 <Button
                     fullWidth
                     variant="contained"

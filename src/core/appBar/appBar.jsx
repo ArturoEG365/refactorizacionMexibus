@@ -13,8 +13,8 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const pages = ['Products', 'Pricing', 'Blog'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const pages = ['Carteles', 'Tipos de Anuncios', 'Ojo de agua', 'Cd Azteca', 'UMB', 'Indios Verdes'];
+const settings = ['Login', 'Registro', 'Inicio', 'Cerrar Sesión'];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
