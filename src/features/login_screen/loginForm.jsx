@@ -32,6 +32,29 @@ export default function LoginForm() {
                 >
                     Ingresar
                 </Button>
+
+                <Typography variant="h6" color='white' gutterBottom>
+                    .
+                </Typography>
+
+                <Button
+                    fullWidth
+                    variant="contained"
+                    color="primary"
+                    sx={{ mt: 2,background: 'red' }}
+                >
+                    Ingresar con google
+                </Button>
+
+                <Button
+                    fullWidth
+                    variant="contained"
+                    color="primary"
+                    sx={{ mt: 2,background: 'blue' }}
+                >
+                    Ingresar con facebook
+                </Button>
+
             </CardContent>
         </Card>
     );

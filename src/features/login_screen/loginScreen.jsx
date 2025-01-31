@@ -3,7 +3,6 @@ import LoginForm from './loginForm'
 import ResponsiveAppBar from "../../core/appBar/appBar";
 
 function LoginScreen(){
-
     return(
      <>    
       <ResponsiveAppBar/>
