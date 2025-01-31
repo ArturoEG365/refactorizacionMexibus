@@ -1,14 +1,12 @@
 import './App.css'
 import React from 'react'
-import LoginForm from './features/login_screen/loginForm'
-import ResponsiveAppBar from './core/appBar/appBar'
+import LoginScreen from './features/login_screen/loginScreen'
 
 function App() {
-
   return (
     <>    
-      <ResponsiveAppBar/>
-      <LoginForm/>
+      // poner screen que quieres mostrar
+      <LoginScreen />
     </>
   )
 }

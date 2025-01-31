@@ -7,7 +7,7 @@ export default function LoginForm() {
     return (
         <Card sx={{ maxWidth: 400, mx: "auto", mt: 5, p: 2 }}>
             <CardContent>
-                <Typography variant="h5" color='#821305' gutterBottom>
+                <Typography variant="h4" color='#821305' gutterBottom>
                     Iniciar Sesión
                 </Typography>
                 <TextField
@@ -23,12 +23,12 @@ export default function LoginForm() {
                     margin="normal"
                     variant="outlined"
                 />
-                 <FormControlLabel control={<Checkbox />} label="Mostrar contraseña" />
+                 <FormControlLabel control={<Checkbox />} label="Mostrar contraseña" color='#821305' />
                 <Button
                     fullWidth
                     variant="contained"
                     color="primary"
-                    sx={{ mt: 2 }}
+                    sx={{ mt: 2,background: '#821305' }}
                 >
                     Ingresar
                 </Button>
