@@ -11,12 +11,11 @@ function App() {
     <>
 
 <ResponsiveAppBar/>    
-    <Typography variant="h5" color='#821305' gutterBottom>
+<Typography variant="h5" color='#821305' gutterBottom>
         ESPACIOS PUBLICITARIOS
       </Typography>
     <CrudScreen />
   
-    <LoginScreen/>
     </>
   )
 }
