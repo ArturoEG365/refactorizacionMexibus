@@ -9,13 +9,6 @@ import ResponsiveAppBar from "../src/core/appBar/appBar";
 function App() {
   return (
     <>
-
-<ResponsiveAppBar/>    
-<Typography variant="h5" color='#821305' gutterBottom>
-        ESPACIOS PUBLICITARIOS
-      </Typography>
-    <CrudScreen />
-  
     </>
   )
 }
