@@ -12,6 +12,9 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/create-account" element={<CreateAccount />} />
         <Route path="/user" element={<User />} />
+      
+        
+
       </Routes>
     </Router>
   );

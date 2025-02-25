@@ -1,8 +1,8 @@
 import React from "react";
-import { useNavigate } from "react-router-dom"; // Importa useNavigate
+import { useNavigate } from "react-router-dom"; 
 
 const Card = ({ onCreateAccountClick, onForgotPasswordClick }) => {
-  const navigate = useNavigate(); // Hook para navegación
+  const navigate = useNavigate(); 
 
   return (
     <div className="login-card">
@@ -13,7 +13,6 @@ const Card = ({ onCreateAccountClick, onForgotPasswordClick }) => {
         <input type="email" placeholder="Correo electrónico" className="input-field" />
         <input type="password" placeholder="Contraseña" className="input-field" />
 
-        {/* Modifica el botón para que redirija a /user */}
         <button onClick={() => navigate("/user")} className="login-button">
           Iniciar sesión
         </button>
@@ -22,7 +21,7 @@ const Card = ({ onCreateAccountClick, onForgotPasswordClick }) => {
           ¿Olvidaste tu contraseña?
         </a>
 
-        <div className="separator"></div> {/* Línea de separación */}
+        <div className="separator"></div> 
 
         <button onClick={onCreateAccountClick} className="create-account-button">
           Crear cuenta

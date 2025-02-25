@@ -4,7 +4,7 @@ const PromoBanner = () => {
   return (
     <div className="promo-banner">
       <h2>RENTA UN LUGAR PARA TUS SERVICIOS</h2>
-      <button className="contact-button">CONTACTO</button>
+      <button className="contact-button">RENTAR</button>
     </div>
   );
 };

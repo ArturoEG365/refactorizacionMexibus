@@ -7,7 +7,7 @@ function CreateAccount() {
     <>
       <Logo />
       <CardCreateAccount />
-    </>
+    </> 
   );
 }
 

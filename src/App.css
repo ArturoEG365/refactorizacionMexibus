@@ -72,37 +72,36 @@ body, html {
 }
 
 img {
-  width: 60px; /* Ajusta el tamaño según sea necesario */
+  width: 60px; 
 }
-/* styles.css */
+
 .text-mexi {
-  color: #821305; /* Rojo */
+  color: #821305; 
   font-family: 'Poppins', sans-serif;
   font-size: 2rem;
 }
 
 .text-anuncios {
-  color: #CDA40C; /* Dorado */
+  color: #CDA40C; 
   font-family: 'Poppins', sans-serif;
   font-size: 2rem;
 }
 
 .texto-grande {
-  font-size: 3rem; /* Tamaño de fuente equivalente a text-4xl en Tailwind */
+  font-size: 3rem;
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
 }
-/* Contenedor principal */
+
 body, html {
   margin: 0;
   padding: 0;
-  height: 100vh; /* Ocupa toda la altura de la ventana */
+  height: 100vh; 
   display: flex;
-  justify-content: center; /* Centra horizontalmente */
-  align-items: center; /* Centra verticalmente */
+  justify-content: center; 
+  align-items: center; 
 }
 
-/* Estilos de la tarjeta de inicio de sesión */
 .login-card {
   width: 100%;
   max-width: 400px;
@@ -128,14 +127,14 @@ body, html {
   margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  box-sizing: border-box; /* Incluye padding y border en el cálculo del ancho y alto */
+  box-sizing: border-box; 
   font-family: 'Poppins', sans-serif;
   height: 50px;
   font-size: 1rem;
 }
 
 .login-button {
-  background-color: #821305; /* Vino */
+  background-color: #821305; 
   color: white;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
@@ -143,11 +142,11 @@ body, html {
 }
 
 .login-button:hover {
-  background-color: #821305; /* Color de hover */
+  background-color: #821305; 
 }
 
 .forgot-password {
-  color: #821305; /* Vino */
+  color: #821305;
   margin-top: 10px;
   cursor: pointer;
 }
@@ -164,7 +163,7 @@ body, html {
 }
 
 .create-account-button {
-  background-color: #CDA40C; /* Amarillo */
+  background-color: #CDA40C; 
   color: white;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
@@ -172,21 +171,20 @@ body, html {
 }
 
 .create-account-button:hover {
-  background-color: #CDA40C; /* Color de hover */
+  background-color: #CDA40C; 
 }
 .header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20px; /* Espacio entre el encabezado y la tarjeta */
+  margin-bottom: 20px;
 }
-/* Aplicar fuente globalmente */
+
 body, html {
   font-family: 'Poppins', sans-serif;
 }
 
 
-/* Estilos para la tarjeta de registro */
 .register-card {
   width: 400px;
   background-color: #fff;
@@ -249,7 +247,6 @@ body, html {
   background-color:#821305;
 }
 
-/* Texto de "¿Ya tienes cuenta?" */
 .register-login-text {
   margin-top: 15px;
   color: #555;
@@ -302,6 +299,20 @@ body, html {
 .sidebar ul li:hover {
   background-color: #ddd;
 }
+.sidebar a {
+  text-decoration: none; 
+  color: inherit; 
+  display: flex; 
+  align-items: center;
+  gap: 8px; 
+  padding: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.sidebar a:hover {
+  color: #f39c12; 
+}
+
 
 .main-content {
   margin-left: 260px;
@@ -312,17 +323,17 @@ body, html {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
-  justify-content: center; /* Centra horizontalmente las tarjetas */
+  justify-content: center; 
 }
 
 .dimension-card {
-  width: 300px; /* Define el ancho fijo */
+  width: 300px; 
   background: white;
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
-  overflow: hidden; /* Evita que la imagen sobresalga */
+  overflow: hidden; 
 }
 
 .dimension-card img {
@@ -334,36 +345,34 @@ body, html {
 
 .promo-banner {
   display: flex;
-  flex-direction: column; /* Acomoda los elementos en columna */
+  flex-direction: column; 
   align-items: center;
   justify-content: center;
-  width: 1300px; /* Aumenta el ancho */
-  height: auto; /* Ajusta dinámicamente según el contenido */
-  padding: 40px; /* Más espacio interno */
-  background-color: #f8f9fa; /* Color de fondo suave */
-  border-radius: 15px; /* Bordes más redondeados */
-  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); /* Más sombra */
+  width: 1300px; 
+  height: auto; 
+  padding: 40px; 
+  background-color: #f8f9fa; 
+  border-radius: 15px;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2); 
   text-align: center;
-  margin: 20px auto; /* Centra el div si no usa flexbox */
+  margin: 20px auto; 
 }
 
-/* Estiliza el título dentro del banner */
 .promo-banner h2 {
-  font-size: 24px; /* Tamaño de fuente más grande */
-  margin-bottom: 20px; /* Más separación del botón */
-  font-weight: bold; /* Hace el texto más llamativo */
+  font-size: 24px; 
+  margin-bottom: 20px; 
+  font-weight: bold; 
 }
 
-/* Botón dentro del banner */
 .promo-banner .contact-button {
   background-color: #CDA40C;
   color: white;
   border: none;
-  padding: 12px 20px; /* Botón más grande */
-  font-size: 16px; /* Fuente más grande */
-  border-radius: 8px; /* Bordes más redondeados */
+  padding: 12px 20px; 
+  font-size: 16px;
+  border-radius: 8px; 
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Efecto suave en hover */
+  transition: background-color 0.3s ease; 
 }
 
 
@@ -372,20 +381,18 @@ body, html {
 }
 
 
-
-/* Contenedor principal de las tarjetas y el cuadro de promoción */
 .bottom-container {
   display: flex;
-  flex-wrap: wrap; /* Permite que las tarjetas se ajusten si no hay espacio */
-  gap: 20px; /* Espacio entre tarjetas y el banner */
-  justify-content: center; /* Centra horizontalmente */
-  align-items: flex-start; /* Alinea al inicio verticalmente */
-  margin-top: 20px; /* Espacio superior */
+  flex-wrap: wrap; 
+  gap: 20px; 
+  justify-content: center; 
+  align-items: flex-start;
+  margin-top: 20px; 
 }
 
-/* Estilos para las tarjetas */
+
 .bottom-card {
-  width: 300px; /* Ancho de cada tarjeta */
+  width: 300px; 
   height: 30vh;
   background: white;
   padding: 15px;
