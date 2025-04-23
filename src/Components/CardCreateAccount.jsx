@@ -9,7 +9,7 @@ const CardCreateAccount = () => {
       <h4 className="register-title">Crea tu cuenta</h4>
       <div className="register-separator"></div>
 
-      <input type="text" placeholder="Nombre completo" className="register-input" />
+      <input type="text" placeholder="Nombre apellidos" className="register-input" />
       <input type="text" placeholder="Nombre de usuario" className="register-input" />
       <input type="email" placeholder="Correo electrónico" className="register-input" />
       <input type="password" placeholder="Contraseña" className="register-input" />
